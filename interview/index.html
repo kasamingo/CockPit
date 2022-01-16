@@ -40,8 +40,20 @@
 <body>
   <div class="loading"></div>
   <div class="container" style="opacity:0;">
-    <esi:include src="/cockpit/assets/inc/header.shtml" onerror="continue" maxwait="2000" />
-    <!--#include virtual="/cockpit/assets/inc/header.shtml" -->
+    <header class="header" id="header">
+      <div class="header_inner"><a class="header_logo opa" href="/cockpit/"><img class="header_logo_img" src="/cockpit/assets/img/cockpit_logo.png" alt="株式会社"></a>
+        <nav class="header_menu">
+          <ul class="header_nav">
+            <li class="header_nav_item"><a class="header_nav_item_inner" href="/cockpit/article"><span class="header_nav_item_text">事業内容</span></a></li>
+            <li class="header_nav_item"><a class="header_nav_item_inner" href="/cockpit/info"><span class="header_nav_item_text">会社概要</span></a></li>
+            <li class="header_nav_item"><a class="header_nav_item_inner" href="/cockpit/interview"><span class="header_nav_item_text">インタビュー</span></a></li>
+          </ul>
+          <ul class="header_buttons">
+            <li class="header_buttons_item opa"><a class="header_buttons_item_inner" href="">お問い合わせ </a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <div class="mv_interview">
       <div class="mv_interview_inner">
         <h1 class="mv_interview_title">About Cockpit</h1>
@@ -50,21 +62,23 @@
     </div>
     <div class="page_nav">
       <ul class="page_nav_list">
-        <li class="page_nav_list_item"> <a class="page_nav_list_item_inner about_link scroller" href="#human">01.経営理念</a></li>
-        <li class="page_nav_list_item"> <a class="page_nav_list_item_inner about_link scroller" href="#secondbus">02.インタビュー</a></li>
+        <li class="page_nav_list_item"> <a class="page_nav_list_item_inner about_link scroller" href="#rinen">01.経営理念</a></li>
+        <li class="page_nav_list_item"> <a class="page_nav_list_item_inner about_link scroller" href="#inter">02.インタビュー</a></li>
       </ul>
     </div>
-    <section class="chat">
+    <section class="chat" id="rinen">
       <div class="chat_title">
         <h2 class="heading_number">
-          <spna class="heading_number_title">CEOが掲げる経営理念</spna>
+          <spna class="heading_number_title heading_number_white">CEOが掲げる経営理念</spna>
         </h2>
       </div>
       <div class="chat_content"> <img src="/cockpit/assets/img/about/chat.png" alt=""></div>
     </section>
-    <section class="single">
+    <section class="single" id="inter">
       <article>
-        <div class="single_content">
+        <div class="label">代表メッセージ</div>
+        <div class="mini">掲載紙 月刊経営情報紙 『アンカー(ANCHOR)』 2020年1月号</div>
+        <div class="single_content mt50">
           <h2>----はじめに、鯰江CEOの歩みからお聞かせ下さい。</h2>
           <p>
             学生時代は野球一筋で、悲願の甲子園出場も果たしました。小学校の時から消防士になることが夢で、大学に進学してからは東日本大震災や熊本の震災のボランティアをしたり、応急手当の普及活動の学生サポーターとしてリーダーも務めたりと、慈善活動に力を入れてきたんです。<br />
@@ -81,22 +95,22 @@
             収入を増やすだけでなく、ひきこもりの方が外に出て生き甲斐を見出した、と言う例もありました。ですから仕事だけでなく、村野さんのおっしゃる通り”人生”のコンサルをしたいと言う気持ちです。その積み重ねで会社全体を良くして行きたい。<br />
             また、私は道のゴミに気が付いたら拾うようにしているのですが、夢は1万人でゴミ拾いを主催すること。そして市役所とマッチアップした孤独死に対してのサービスを検討しております。ゴミ拾いは2年以内、孤独死に関しては4年以内に実現させたいですね。
 
-          </p>
-          <p>掲載紙 月刊経営情報誌 『アンカー(ANCHOR)』2020年1月号より抜粋</p><a href="https://static.wixstatic.com/media/730141_bc0e6bbbebbb42bf922ad6a99eb426f3~mv2.jpg/v1/fill/w_664,h_930,al_c,q_85,usm_0.66_1.00_0.01/730141_bc0e6bbbebbb42bf922ad6a99eb426f3~mv2.webp">本誌画像はこちら</a>
+
+          </p><a class="mt50" href="https://static.wixstatic.com/media/730141_bc0e6bbbebbb42bf922ad6a99eb426f3~mv2.jpg/v1/fill/w_664,h_930,al_c,q_85,usm_0.66_1.00_0.01/730141_bc0e6bbbebbb42bf922ad6a99eb426f3~mv2.webp">本誌画像はこちら</a>
         </div>
       </article>
     </section>
     <aside class="link_card">
       <ul class="link_card_lists">
-        <li class="link_card_lists_item"><a class="link_card_lists_item_inner" href="">
+        <li class="link_card_lists_item fadein" data-fadein="fadeInUp"><a class="link_card_lists_item_inner" href="">
             <p class="link_card_lists_item_title">Company</p>
             <p class="link_card_lists_item_text">会社概要</p>
           </a></li>
-        <li class="link_card_lists_item"><a class="link_card_lists_item_inner" href="">
+        <li class="link_card_lists_item fadein" data-fadein="fadeInUp"><a class="link_card_lists_item_inner" href="">
             <p class="link_card_lists_item_title">technology</p>
             <p class="link_card_lists_item_text">事業内容</p>
           </a></li>
-        <li class="link_card_lists_item"><a class="link_card_lists_item_inner" href="">
+        <li class="link_card_lists_item fadein" data-fadein="fadeInUp"><a class="link_card_lists_item_inner" href="">
             <p class="link_card_lists_item_title">FAQ</p>
             <p class="link_card_lists_item_text">よくある質問</p>
           </a></li>
@@ -117,12 +131,12 @@
             そして、どれだけ大きな売上や社員数になっても、ベンチャー企業らしく社会の常識を疑い、<br>より良い未来を創り、社会の発展に貢献していきます。<br>皆さん、CockPitと一緒に力を合わせて、かっこよくセクシー（魅力的）な人生を作り上げましょう。
           </p>
         </div>
-        <div class="contact_button"> <a class="button_plate" href="">
+        <div class="contact_button fadein" data-fadein="fadeInUp"> <a class="button_plate" href="">
             <div class="button_plate_inner">
               <p class="button_plate_text">お問い合わせはこちらから<span class="button_plate_text_icon"></span></p><span class="button_plate_arrow"></span>
             </div>
           </a></div>
-        <div class="contact_bottom">
+        <div class="contact_bottom fadein" data-fadein="fadeInUp">
           <div class="contact_bottom_tel">03-6882-9519</div>
           <div class="contact_bottom_detail">受付時間：9:00〜17:00<br>(土日祝、年末年始除く)</div>
         </div>
@@ -136,7 +150,7 @@
   <script type="text/javascript" src="/cockpit/assets/js/script.js"></script>
   <script type="text/javascript">
     var URL = 'https://www.asahi.com/cockpit/';
-    var TITLE = '下層○○○○○│';
+    var TITLE = '○○○○○│';
   </script>
 </body>
 

@@ -469,7 +469,17 @@ img.block {
   padding: 3px 0 0 69px;
 }
 .heading_number_title {
+  display: block;
   font-size: 3.4rem;
+  transform: translateX(-100px);
+}
+.heading_number_white {
+  color: white;
+}
+.heading_number .active {
+  opacity: 1;
+  transition: 0.5s;
+  transform: translateX(0);
 }
 
 .button {
@@ -518,20 +528,20 @@ img.block {
   height: 100%;
   position: relative;
   width: auto;
-  transform: translateX(200px);
+  transform: translateX(100px);
 }
 .slide_cards .active01 {
-  transition: 1s;
+  transition: 0.5s;
   opacity: 1;
   transform: translateX(0);
 }
 .slide_cards .active02 {
-  transition: 2s;
+  transition: 1s;
   opacity: 1;
   transform: translateX(0);
 }
 .slide_cards .active03 {
-  transition: 3s;
+  transition: 1.5s;
   opacity: 1;
   transform: translateX(0);
 }
@@ -2729,6 +2739,7 @@ img.block {
   margin: 16px 0 0;
   border: 1px solid black;
   background-color: white;
+  transform: translateX(-200px);
 }
 .seminer_info_item_inner {
   position: relative;
@@ -2786,6 +2797,11 @@ img.block {
   width: 100%;
   text-align: center;
   color: black;
+}
+.seminer_info .active {
+  opacity: 1;
+  transition: 1s;
+  transform: translateX(0);
 }
 .seminer_button {
   margin-top: 34px;
@@ -3117,8 +3133,18 @@ img.block {
 }
 
 .single {
-  margin-top: 60px;
+  margin-top: 160px;
   display: block;
+}
+.single .label {
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+.single .mini {
+  text-align: center;
+  font-size: 1.8rem;
 }
 .single article {
   display: block;
@@ -3168,7 +3194,7 @@ img.block {
 }
 .chat::before {
   /* 透過した黒を上から重ねるイメージ */
-  background-color: rgba(0, 0, 0, 0.62);
+  background-color: rgba(0, 0, 0, 0.81);
   /* 自由に位置指定 */
   position: absolute;
   top: 0;

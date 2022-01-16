@@ -40,8 +40,20 @@
 <body>
   <div class="loading"></div>
   <div class="container" style="opacity:0;">
-    <esi:include src="/cockpit/assets/inc/header.shtml" onerror="continue" maxwait="2000" />
-    <!--#include virtual="/cockpit/assets/inc/header.shtml" -->
+    <header class="header" id="header">
+      <div class="header_inner"><a class="header_logo opa" href="/cockpit/"><img class="header_logo_img" src="/cockpit/assets/img/cockpit_logo.png" alt="株式会社"></a>
+        <nav class="header_menu">
+          <ul class="header_nav">
+            <li class="header_nav_item"><a class="header_nav_item_inner" href="/cockpit/article"><span class="header_nav_item_text">事業内容</span></a></li>
+            <li class="header_nav_item"><a class="header_nav_item_inner" href="/cockpit/info"><span class="header_nav_item_text">会社概要</span></a></li>
+            <li class="header_nav_item"><a class="header_nav_item_inner" href="/cockpit/interview"><span class="header_nav_item_text">インタビュー</span></a></li>
+          </ul>
+          <ul class="header_buttons">
+            <li class="header_buttons_item opa"><a class="header_buttons_item_inner" href="">お問い合わせ </a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <div class="mv_overview">
       <div class="mv_overview_inner">
         <h1 class="mv_overview_title">About Cockpit</h1>
@@ -106,15 +118,15 @@
     </div>
     <aside class="link_card">
       <ul class="link_card_lists">
-        <li class="link_card_lists_item"><a class="link_card_lists_item_inner" href="">
+        <li class="link_card_lists_item fadein" data-fadein="fadeInUp"><a class="link_card_lists_item_inner" href="">
             <p class="link_card_lists_item_title">Company</p>
             <p class="link_card_lists_item_text">会社概要</p>
           </a></li>
-        <li class="link_card_lists_item"><a class="link_card_lists_item_inner" href="">
+        <li class="link_card_lists_item fadein" data-fadein="fadeInUp"><a class="link_card_lists_item_inner" href="">
             <p class="link_card_lists_item_title">technology</p>
             <p class="link_card_lists_item_text">事業内容</p>
           </a></li>
-        <li class="link_card_lists_item"><a class="link_card_lists_item_inner" href="">
+        <li class="link_card_lists_item fadein" data-fadein="fadeInUp"><a class="link_card_lists_item_inner" href="">
             <p class="link_card_lists_item_title">FAQ</p>
             <p class="link_card_lists_item_text">よくある質問</p>
           </a></li>
@@ -135,12 +147,12 @@
             そして、どれだけ大きな売上や社員数になっても、ベンチャー企業らしく社会の常識を疑い、<br>より良い未来を創り、社会の発展に貢献していきます。<br>皆さん、CockPitと一緒に力を合わせて、かっこよくセクシー（魅力的）な人生を作り上げましょう。
           </p>
         </div>
-        <div class="contact_button"> <a class="button_plate" href="">
+        <div class="contact_button fadein" data-fadein="fadeInUp"> <a class="button_plate" href="">
             <div class="button_plate_inner">
               <p class="button_plate_text">お問い合わせはこちらから<span class="button_plate_text_icon"></span></p><span class="button_plate_arrow"></span>
             </div>
           </a></div>
-        <div class="contact_bottom">
+        <div class="contact_bottom fadein" data-fadein="fadeInUp">
           <div class="contact_bottom_tel">03-6882-9519</div>
           <div class="contact_bottom_detail">受付時間：9:00〜17:00<br>(土日祝、年末年始除く)</div>
         </div>
@@ -154,7 +166,7 @@
   <script type="text/javascript" src="/cockpit/assets/js/script.js"></script>
   <script type="text/javascript">
     var URL = 'https://www.asahi.com/cockpit/';
-    var TITLE = '下層○○○○○│';
+    var TITLE = '○○○○○│';
   </script>
 </body>
 
