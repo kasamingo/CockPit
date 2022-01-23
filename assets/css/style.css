@@ -2273,7 +2273,7 @@ img.block {
   font-size: 4rem;
   text-align: center;
   line-height: 1.3;
-  color: #FFF;
+  color: #ffce60;
 }
 .mv_h1 span {
   font-size: 2rem;
@@ -2408,7 +2408,7 @@ img.block {
   padding: 76px 0 0;
   background-color: #EFEFEF;
   background-size: cover;
-  background-position-y: 77%;
+  background-position-y: 42%;
   background-image: url(../img/about/overview.jpg);
 }
 .mv_overview_inner {
