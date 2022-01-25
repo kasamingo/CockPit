@@ -2612,6 +2612,9 @@ img.block {
 .product_cards_item:nth-child(2) .product_cards_item_content {
   margin: 0 auto 0 0;
 }
+.product_cards_item:nth-child(3) .product_cards_item_bg .product_cards_item_bg_img {
+  background-image: url(../img/pro_03.jpg);
+}
 .product_cards_item_bg {
   position: absolute;
   top: 0;
