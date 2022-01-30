@@ -1953,8 +1953,7 @@ ul li:hover ul {
   tab-size: 0;
 }
 .clients_lists_item_image {
-  max-width: 100%;
-  width: 100%;
+  width: 100px;
   height: auto;
 }
 
