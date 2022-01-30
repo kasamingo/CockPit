@@ -3,12 +3,18 @@
   <div class="header_inner"><a class="header_logo opa" href="/cockpit/"><img class="header_logo_img" src="/cockpit/assets/img/cockpit_logo.png" alt="株式会社"/></a>
     <nav class="header_menu">
       <ul class="header_nav">
-        <li class="header_nav_item"><a class="header_nav_item_inner" href="/cockpit/article"><span class="header_nav_item_text">事業内容</span></a></li>
+        <li class="header_nav_item"><a class="header_nav_item_inner" href="/cockpit/article"><span class="header_nav_item_text">事業内容</span></a>
+          <ul>
+            <li><a href="#">事業内容1</a></li>
+            <li><a href="#">事業内容2</a></li>
+            <li><a href="#">事業内容3</a></li>
+          </ul>
+        </li>
         <li class="header_nav_item"><a class="header_nav_item_inner" href="/cockpit/info"><span class="header_nav_item_text">会社概要</span></a></li>
         <li class="header_nav_item"><a class="header_nav_item_inner" href="/cockpit/interview"><span class="header_nav_item_text">インタビュー</span></a></li>
       </ul>
       <ul class="header_buttons">
-        <li class="header_buttons_item opa"><a class="header_buttons_item_inner" href="">お問い合わせ </a></li>
+        <li class="header_buttons_item opa"><a class="header_buttons_item_inner" href="">お問い合わせ</a></li>
       </ul>
     </nav>
   </div>
