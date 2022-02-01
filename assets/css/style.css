@@ -1945,7 +1945,6 @@ ul li:hover ul {
   widows: 20%;
   max-width: 20%;
   flex-basis: 20%;
-  height: 75px;
 }
 .clients_lists_item_inner {
   display: inline-block;
