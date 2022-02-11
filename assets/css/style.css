@@ -1198,8 +1198,14 @@ img.block {
   transform: scale(1, 1);
 }
 .header_nav_item_text {
-  display: block;
   font-family: "Roboto", sans-serif;
+}
+.header_nav_item ul li {
+  padding: 1px 0;
+}
+.header_nav_item ul li a {
+  padding: 10px;
+  display: block;
 }
 .header_buttons {
   width: 184px;
@@ -1254,6 +1260,11 @@ ul li ul {
 
 ul li:hover ul {
   height: 250px;
+  /*サブメニューの高さ*/
+  overflow: visible;
+}
+ul li:hover .seco-s {
+  height: 100px !important;
   /*サブメニューの高さ*/
   overflow: visible;
 }
