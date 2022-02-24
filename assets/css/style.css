@@ -2371,6 +2371,16 @@ ul li:hover .seco-s {
   font-size: 4rem;
   margin-bottom: 30px;
 }
+.access_office {
+  margin-bottom: 50px;
+}
+.access_office_image {
+  display: flex;
+  justify-content: space-between;
+}
+.access_office_image img {
+  width: 47%;
+}
 
 .Form {
   margin-top: 200px;
@@ -2542,6 +2552,12 @@ ul li:hover .seco-s {
   color: #FFF;
   background-color: #00000094;
   padding: 10px;
+}
+
+.suc {
+  margin-top: 200px;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .s-intro {
