@@ -677,7 +677,7 @@ img.block {
   width: 140px;
   border-radius: 30px;
   height: 30px;
-  margin: 17px 20px 0;
+  margin: 17px 50px 0;
   border: 1px solid black;
   color: cadetblue;
   font-size: 1.1rem;
@@ -2154,7 +2154,7 @@ ul li:hover .seco-s {
 }
 .p-business_inner_copy {
   margin-top: 28px;
-  font-size: 28px;
+  font-size: 22px;
   letter-spacing: 7.3px;
   font-weight: 300;
   color: #fff;
@@ -2238,7 +2238,7 @@ ul li:hover .seco-s {
 
 .forLp {
   display: block;
-  background-color: #1616a2;
+  background-color: #860f0f;
   color: white;
   padding: 50px 0;
 }
@@ -2300,7 +2300,25 @@ ul li:hover .seco-s {
   display: block;
   margin-top: 20px;
 }
-
+.forLp_flex {
+  display: flex;
+  max-width: 1140px;
+  width: 100%;
+  justify-content: space-between;
+  margin: 50px auto 0;
+}
+.forLp_flex_contents {
+  width: 25%;
+  padding: 10px;
+}
+.forLp_flex_contents_top img {
+  width: 100%;
+}
+.forLp_flex_contents_top p {
+  background-color: #FFF;
+  color: #000;
+  text-align: center;
+}
 .brando {
   background-color: #ededed;
   padding: 4%;
@@ -2551,6 +2569,12 @@ ul li:hover .seco-s {
   font-size: 4rem;
   color: #FFF;
   background-color: #00000094;
+  padding: 10px;
+}
+.submain .onl {
+  font-size: 4rem;
+  color: #000;
+  background-color: #ffffffe8;
   padding: 10px;
 }
 
