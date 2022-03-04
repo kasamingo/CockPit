@@ -774,6 +774,13 @@ img.block {
   transform: scale(1.1);
 }
 
+.shita {
+  margin-top: 30px;
+  max-width: 400px;
+  width: 100%;
+  display: block;
+}
+
 .flex {
   display: flex;
   height: 100%;
@@ -1088,7 +1095,7 @@ img.block {
   transition: 0.5s all;
 }
 .scale_box img:hover {
-  transform: scale(1.2, 1.2);
+  transform: scale(1.5, 1.5);
   transition: 0.5 all;
 }
 
@@ -1479,9 +1486,9 @@ ul li:hover .seco-s {
 .solution_cards_item {
   position: relative;
   display: block;
-  width: 250px;
-  max-width: 250px;
-  flex-basis: 250px;
+  width: 270px;
+  max-width: 270px;
+  flex-basis: 270px;
   height: 290px;
   background-color: white;
   margin: 0 13px;
@@ -1498,6 +1505,7 @@ ul li:hover .seco-s {
   font-size: 1.6rem;
   font-weight: 700;
   line-height: 1.5;
+  text-shadow: 1px 1px 2px #919191;
 }
 .solution_cards_item_message {
   position: absolute;
@@ -1531,7 +1539,7 @@ ul li:hover .seco-s {
   max-width: 100%;
   height: auto;
   width: 100%;
-  margin: 96px auto 0;
+  margin: 70px auto 0;
 }
 .solution_cards_item_image img {
   width: 100%;
@@ -2026,7 +2034,9 @@ ul li:hover .seco-s {
   max-width: 100%;
 }
 .single_content .pro {
-  width: 300px;
+  margin-top: 30px;
+  max-width: 400px;
+  width: 100%;
 }
 
 .life {
@@ -2615,8 +2625,16 @@ ul li:hover .seco-s {
 
 .suc {
   margin-top: 200px;
-  font-size: 3rem;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #be0505;
   text-align: center;
+}
+
+.mv-s {
+  color: #be0505;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
 .s-intro {
