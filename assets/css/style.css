@@ -2272,7 +2272,7 @@ ul li:hover .seco-s {
   line-height: 46px;
   letter-spacing: 3.2px;
   margin-top: 18px;
-  display: inline-block;
+  text-align: center;
 }
 .p-business_body .p-business_body_card:nth-child(1) {
   margin-right: 4.4%;
@@ -2621,6 +2621,15 @@ ul li:hover .seco-s {
   color: #000;
   background-color: #ffffffe8;
   padding: 10px;
+  line-height: 1.3;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.submain .onl .ac01 {
+  font-size: 1.5rem;
+}
+.submain .onl .ac03 {
+  font-size: 2.5rem;
 }
 
 .suc {
