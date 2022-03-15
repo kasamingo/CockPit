@@ -2266,11 +2266,11 @@ ul li:hover .seco-s {
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center;
-  height: 100px;
+  height: 60px;
   font-size: 2rem;
   color: #FFF;
   overflow: hidden;
-  background-color: #bc0606;
+  background-color: #233538;
 }
 .p-business_body_card_message {
   font-size: 3rem;
