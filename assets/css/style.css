@@ -737,21 +737,15 @@ img.block {
   letter-spacing: 0.02em;
 }
 .slide_cards_item_category {
-  display: flex;
-  justify-content: center;
-  flex-basis: 140px;
-  align-items: center;
   width: 140px;
   border-radius: 30px;
-  height: 30px;
-  margin: 17px 50px 0;
+  padding: 10px;
+  margin: 260px auto 0;
   border: 1px solid black;
   color: cadetblue;
-  font-size: 1.1rem;
+  font-size: 1.7rem;
   line-height: 1;
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 40px;
+  font-weight: 700;
 }
 @media screen and (max-width: 749px) {
   .slide_cards_item_category {
