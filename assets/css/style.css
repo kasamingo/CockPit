@@ -2968,6 +2968,18 @@ ul li:hover .seco-s {
   background-color: #00000094;
   padding: 10px;
 }
+.submain .ten {
+  text-align: center;
+}
+.submain .lll {
+  line-height: 1.3;
+}
+.submain .gate01 {
+  display: block;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-top: 20px;
+}
 .submain .onl {
   font-size: 4rem;
   color: #000;
@@ -2976,6 +2988,7 @@ ul li:hover .seco-s {
   line-height: 1.3;
   letter-spacing: 2px;
   font-weight: 700;
+  text-align: center;
 }
 @media screen and (max-width: 749px) {
   .submain .onl {
@@ -2988,9 +3001,18 @@ ul li:hover .seco-s {
 .submain .onl .ac03 {
   font-size: 2.5rem;
 }
+.submain .onl .ac04 {
+  display: block;
+  font-size: 1.7rem !important;
+  margin-top: 20px;
+}
+
+.ten-1 {
+  font-size: 2rem;
+}
 
 .suc {
-  margin-top: 200px;
+  margin: 70px 0 0;
   font-size: 5rem;
   font-weight: 700;
   color: #be0505;
@@ -3035,6 +3057,48 @@ ul li:hover .seco-s {
 
 .s-mission {
   background-image: url(../img/submenu/sub-b.jpg);
+}
+
+.ifa {
+  width: 100%;
+  max-width: 800px;
+  margin: 50px auto 70px;
+  display: flex;
+}
+.ifa-img {
+  box-sizing: border-box;
+}
+.ifa-img img {
+  width: 78%;
+}
+
+.four {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.four p {
+  border-top: 4px solid blueviolet;
+  width: 48%;
+  color: #FFF;
+  text-align: center;
+  background-color: blue;
+  padding: 20px;
+}
+.four p span {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.grh {
+  width: 100%;
+  max-width: 900px;
+  margin: 70px auto;
+}
+.grh img {
+  display: block;
+  width: 80%;
+  margin: auto;
 }
 
 .footer {
