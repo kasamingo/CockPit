@@ -3029,6 +3029,11 @@ ul li:hover .seco-s {
   color: #be0505;
   font-size: 1.8rem;
   font-weight: 700;
+  margin-bottom: 100px;
+}
+
+.bbb {
+  background-color: #000000db !important;
 }
 
 .s-intro {
