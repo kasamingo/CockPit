@@ -2212,6 +2212,8 @@ ul li:hover .seco-s {
 .single {
   margin-top: 160px;
   display: block;
+  margin: 200px;
+  margin-top: 100px;
 }
 .single .label {
   font-size: 4rem;
