@@ -489,10 +489,20 @@ img.block {
   height: 43px;
   padding: 3px 0 0 69px;
 }
+@media screen and (max-width: 749px) {
+  .heading_number {
+    padding: 0;
+  }
+}
 .heading_number_title {
   display: block;
   font-size: 3.4rem;
   transform: translateX(-100px);
+}
+@media screen and (max-width: 749px) {
+  .heading_number_title {
+    transform: unset;
+  }
 }
 .heading_number_white {
   color: white;
@@ -575,6 +585,11 @@ img.block {
   position: relative;
   width: auto;
   transform: translateX(100px);
+}
+@media screen and (max-width: 749px) {
+  .slide_cards .swiper_slide {
+    transform: unset;
+  }
 }
 .slide_cards .active01 {
   transition: 0.5s;
@@ -800,12 +815,25 @@ img.block {
   transform: scaleX(0);
   transition: transform ease 0.3s;
 }
+@media screen and (max-width: 749px) {
+  .button_plate::before {
+    transform-origin: unset;
+    transform: unset;
+    background: unset;
+  }
+}
 .button_plate:hover {
   color: #FFF;
 }
 .button_plate:hover::before {
   transform-origin: 0% 50%;
   transform: scaleX(1);
+}
+@media screen and (max-width: 749px) {
+  .button_plate:hover::before {
+    transform-origin: unset;
+    transform: unset;
+  }
 }
 .button_plate_inner {
   position: relative;
@@ -1416,6 +1444,104 @@ ul li:hover .seco-s {
   height: 200px !important;
   /*サブメニューの高さ*/
   overflow: visible;
+}
+
+/*----------------------------
+* メニュー開閉ボタン
+*----------------------------*/
+.openbtn1 {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  color: #fff;
+}
+
+/*----------------------------
+* メニュー本体
+*----------------------------*/
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #555;
+}
+
+.openbtn1 span {
+  display: inline-block;
+  transition: all 0.4s;
+  /*アニメーションの設定*/
+  position: absolute;
+  left: 14px;
+  height: 3px;
+  border-radius: 2px;
+  background: #fff;
+  width: 45%;
+}
+.openbtn1 span:nth-last-child(1) {
+  top: 15px;
+}
+.openbtn1 span:nth-last-child(2) {
+  top: 23px;
+}
+.openbtn1 span:nth-last-child(3) {
+  top: 31px;
+}
+
+.menu__item {
+  width: 100%;
+  height: auto;
+  padding: 0.5em 1em;
+  text-align: center;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+/*----------------------------
+* アニメーション部分
+*----------------------------*/
+/* アニメーション前のメニューの状態 */
+.menu {
+  transform: translateX(100vw);
+  transition: all 0.3s linear;
+}
+
+/* アニメーション後のメニューの状態 */
+.menu.is-active {
+  transform: translateX(0);
+}
+
+/*activeクラスが付与されると線が回転して×に*/
+.openbtn1.active span:nth-of-type(1) {
+  top: 18px;
+  left: 18px;
+  transform: translateY(6px) rotate(-45deg);
+  width: 30%;
+}
+
+.openbtn1.active span:nth-of-type(2) {
+  opacity: 0;
+  /*真ん中の線は透過*/
+}
+
+.openbtn1.active span:nth-of-type(3) {
+  top: 30px;
+  left: 18px;
+  transform: translateY(-6px) rotate(45deg);
+  width: 30%;
 }
 
 .mv {
@@ -2196,6 +2322,11 @@ ul li:hover .seco-s {
   max-width: 780px;
   margin: 90px auto 0;
 }
+@media screen and (max-width: 749px) {
+  .overview {
+    width: 100%;
+  }
+}
 .overview_content {
   width: 100%;
 }
@@ -2203,10 +2334,26 @@ ul li:hover .seco-s {
   border: 1px solid #ccc;
   padding: 20px;
 }
+@media screen and (max-width: 749px) {
+  .overview_content th, .overview_content td {
+    padding: 10px;
+  }
+}
 .overview_content th {
   width: 200px;
   font-weight: bold;
   background-color: #dedede;
+}
+@media screen and (max-width: 749px) {
+  .overview_content th {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  iframe {
+    width: 100%;
+  }
 }
 
 .single {
@@ -2215,6 +2362,12 @@ ul li:hover .seco-s {
   margin: 200px;
   margin-top: 100px;
   margin-bottom: 300px;
+}
+@media screen and (max-width: 749px) {
+  .single {
+    margin: 100px 0;
+    padding: 0 10px;
+  }
 }
 .single .label {
   font-size: 4rem;
@@ -2238,6 +2391,12 @@ ul li:hover .seco-s {
   line-height: 1.7;
   letter-spacing: 0.1em;
 }
+@media screen and (max-width: 749px) {
+  .single article h1 {
+    width: 100%;
+    font-size: 2.2rem;
+  }
+}
 .single_content {
   margin-top: 42px;
   width: 880px;
@@ -2245,6 +2404,11 @@ ul li:hover .seco-s {
   font-size: 1.4rem;
   line-height: 2;
   letter-spacing: 0.1em;
+}
+@media screen and (max-width: 749px) {
+  .single_content {
+    width: 100%;
+  }
 }
 .single_content h2 {
   position: relative;
@@ -2254,6 +2418,11 @@ ul li:hover .seco-s {
   font-weight: 700;
   line-height: 1.7;
   letter-spacing: 0.1em;
+}
+@media screen and (max-width: 749px) {
+  .single_content h2 {
+    font-size: 1.8rem;
+  }
 }
 .single_content h2::before {
   position: absolute;
@@ -2277,6 +2446,11 @@ ul li:hover .seco-s {
   border-radius: 10px;
   padding-left: 100px;
   transition: 0.3s;
+}
+@media screen and (max-width: 749px) {
+  .single_content h3 {
+    font-size: 1.5rem;
+  }
 }
 .single_content .left {
   padding-left: 31px;
@@ -2326,10 +2500,20 @@ ul li:hover .seco-s {
   width: 1120px;
   margin: 0 auto;
 }
+@media screen and (max-width: 749px) {
+  .chat_title {
+    width: 90%;
+  }
+}
 .chat_content {
   text-align: center;
   width: 800px;
   margin: 0 auto;
+}
+@media screen and (max-width: 749px) {
+  .chat_content {
+    width: 90%;
+  }
 }
 .chat_content img {
   width: 100%;
@@ -2608,6 +2792,11 @@ ul li:hover .seco-s {
   transition: 0.3s;
   margin-left: 50px;
 }
+@media screen and (max-width: 749px) {
+  .forLp_message {
+    font-size: 2rem;
+  }
+}
 .forLp .leftt {
   opacity: 1;
   margin-left: 0;
@@ -2663,9 +2852,20 @@ ul li:hover .seco-s {
   justify-content: space-between;
   margin: 50px auto 0;
 }
+@media screen and (max-width: 749px) {
+  .forLp_flex {
+    display: block;
+  }
+}
 .forLp_flex_contents {
   width: 25%;
   padding: 10px;
+}
+@media screen and (max-width: 749px) {
+  .forLp_flex_contents {
+    width: 90%;
+    margin: auto;
+  }
 }
 .forLp_flex_contents_top img {
   width: 100%;
@@ -2962,7 +3162,7 @@ ul li:hover .seco-s {
 }
 @media screen and (max-width: 749px) {
   .submain {
-    height: 40rem;
+    height: 50rem;
   }
 }
 .submain h2 {
@@ -2973,6 +3173,11 @@ ul li:hover .seco-s {
 }
 .submain .ten {
   text-align: center;
+}
+@media screen and (max-width: 749px) {
+  .submain .ten {
+    margin-top: 60px;
+  }
 }
 .submain .lll {
   line-height: 1.3;
