@@ -540,6 +540,11 @@ img.block {
 .over {
   margin-top: 70px;
 }
+@media screen and (max-width: 749px) {
+  .over {
+    margin-top: 30px;
+  }
+}
 .over-te {
   margin-top: 30px;
 }
@@ -888,6 +893,12 @@ img.block {
   transform: scale(1.1);
 }
 
+@media screen and (max-width: 749px) {
+  .bi {
+    font-size: 1.2rem;
+  }
+}
+
 .shita {
   margin-top: 30px;
   max-width: 400px;
@@ -1142,6 +1153,11 @@ img.block {
 
 .mess {
   font-size: 2.5rem;
+}
+@media screen and (max-width: 749px) {
+  .mess {
+    font-size: 2rem;
+  }
 }
 
 /* モーダルCSS */
@@ -1634,6 +1650,11 @@ ul li:hover .seco-s {
   letter-spacing: 0.11em;
   color: white;
 }
+@media screen and (max-width: 749px) {
+  .mv_overview_title {
+    font-size: 3rem;
+  }
+}
 .mv_overview_main_title {
   margin: 5px 0 0;
   font-size: 1.5rem;
@@ -2015,6 +2036,7 @@ ul li:hover .seco-s {
     width: 80%;
     position: relative;
     height: 210px;
+    margin: 0 auto;
   }
 }
 .product_cards_item_bg_inner {
@@ -2049,7 +2071,7 @@ ul li:hover .seco-s {
   .product_cards_item_content {
     width: 90%;
     min-height: unset;
-    margin: 0;
+    margin: 0 auto;
   }
 }
 .product_cards_item_content_status {
@@ -2472,6 +2494,11 @@ ul li:hover .seco-s {
 .life {
   margin-top: 50px;
 }
+@media screen and (max-width: 749px) {
+  .life {
+    margin-top: 25px;
+  }
+}
 
 .c-w {
   color: #FFF;
@@ -2538,8 +2565,14 @@ ul li:hover .seco-s {
 .recruit_head h1 {
   font-size: 5rem;
 }
+@media screen and (max-width: 749px) {
+  .recruit_head h1 {
+    font-size: 4rem;
+  }
+}
 .recruit_head p {
   font-size: 3rem;
+  font-size: 2rem;
 }
 .recruit_article {
   width: 700px;
@@ -2657,7 +2690,7 @@ ul li:hover .seco-s {
 }
 @media screen and (max-width: 749px) {
   .p-business_inner_copy {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1.3;
   }
 }
@@ -2672,6 +2705,7 @@ ul li:hover .seco-s {
 @media screen and (max-width: 749px) {
   .p-business_inner_desk {
     line-height: 1.3;
+    font-size: 1.2rem;
   }
 }
 .p-business_title {
@@ -2684,6 +2718,11 @@ ul li:hover .seco-s {
   letter-spacing: 3.8px;
   color: #fff;
   display: inline-block;
+}
+@media screen and (max-width: 749px) {
+  .p-business_title h3 {
+    font-size: 2rem;
+  }
 }
 .p-business_title p {
   font-size: 16px;
@@ -2794,7 +2833,7 @@ ul li:hover .seco-s {
 }
 @media screen and (max-width: 749px) {
   .forLp_message {
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
 }
 .forLp .leftt {
@@ -3171,6 +3210,11 @@ ul li:hover .seco-s {
   background-color: #00000094;
   padding: 10px;
 }
+@media screen and (max-width: 749px) {
+  .submain h2 {
+    font-size: 2.2rem;
+  }
+}
 .submain .ten {
   text-align: center;
 }
@@ -3187,6 +3231,11 @@ ul li:hover .seco-s {
   font-size: 1.6rem;
   line-height: 1.6;
   margin-top: 20px;
+}
+@media screen and (max-width: 749px) {
+  .submain .gate01 {
+    font-size: 1.1rem;
+  }
 }
 .submain .onl {
   font-size: 4rem;
@@ -3238,6 +3287,11 @@ ul li:hover .seco-s {
   font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 250px;
+}
+@media screen and (max-width: 749px) {
+  .mv-s {
+    font-size: 1.1rem;
+  }
 }
 
 .bbb {
@@ -3298,9 +3352,19 @@ ul li:hover .seco-s {
   background-color: blue;
   padding: 10px;
 }
+@media screen and (max-width: 749px) {
+  .four p {
+    font-size: 1rem;
+  }
+}
 .four p span {
   font-size: 1.8rem;
   font-weight: 700;
+}
+@media screen and (max-width: 749px) {
+  .four p span {
+    font-size: 1.4rem;
+  }
 }
 
 .grh {
