@@ -2678,7 +2678,7 @@ ul li:hover .seco-s {
 }
 @media screen and (max-width: 749px) {
   .p-business_inner {
-    padding: 10px;
+    padding: 30px;
   }
 }
 .p-business_inner_copy {
