@@ -1798,6 +1798,7 @@ ul li:hover .seco-s {
 @media screen and (max-width: 749px) {
   .solution_cards_item {
     width: 70%;
+    margin: auto;
     height: auto;
   }
 }
